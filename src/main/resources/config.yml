@@ -1,0 +1,6 @@
+start-balance: 10000
+# Probabilità in %: win + lose, il resto è pareggio (puntata restituita)
+win-chance: 45
+lose-chance: 45
+# Moltiplicatore sulla vincita (2.0 = ricevi il doppio della puntata)
+win-multiplier: 2.0

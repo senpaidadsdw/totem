@@ -1,0 +1,17 @@
+name: RighMod
+main: it.righmod.RighMod
+version: 1.0
+api-version: '1.21'
+softdepend: [Vault]
+description: Mini casino (blackjack, paper game, arrow game) per il server tra amici
+commands:
+  gamble:
+    description: Apri il casino con una puntata
+    usage: /gamble <puntata>
+  righmod:
+    description: Comandi RighMod
+    usage: /righmod <bal|give|force>
+permissions:
+  righmod.admin:
+    description: Gestione RighMod (give, force)
+    default: op
